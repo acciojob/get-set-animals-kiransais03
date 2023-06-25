@@ -7,10 +7,7 @@ class Animal {
 		return this._species;
 	}
 	makeSound() {
-        if(this.species=='cat') {this.purr()}
-		else {
-			this.bark();
-		}
+      console.log('The '+this._species+' makes a sound')
 	}
 }
 
